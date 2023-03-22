@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(70, 142, 236);
+    font: normal 15pt arial;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+button:hover{
+    background-color: rgb(190, 177, 159);
+    cursor: pointer;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img{
+    height: 300px;
+    margin-top: 20px;
+}
