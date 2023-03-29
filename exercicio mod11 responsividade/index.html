@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja dos Personalizados</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <header class="container">
+            <h1>Nerd Estampas</h1>
+            <form class="btn-search">
+                <input type="search" placeholder="Busque no site">
+                <button type="submit">Pesquisar</button>
+            </form>
+                <button class="button-menu" type="button">Abrir Menu</button>
+        <nav>
+            <div>
+                <ul class="menu">
+                    <li>
+                        <a href="#about">Sobre a loja</a>
+                    </li>
+                    <li>
+                        <a href="#produtos">Produtos</a>
+                    </li>
+                </ul>
+            </div>
+           
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about">
+            <div class="container">
+                <img class="img-front" src="./midia/LogoLoja.jpg" alt="Personagens de quadrinhos">
+                <div>
+                    <h2>Sobre a loja</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil atque impedit veniam. Perspiciatis quod architecto culpa qui aut, nobis eius beatae nisi eum rerum doloremque aspernatur libero. Eligendi, tempore quidem.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum animi praesentium error libero, totam nam velit atque. Labore cumque maxime fuga totam quia quibusdam, neque iusto error, sunt at consectetur?
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="container">
+            <h2>Produtos</h2>
+            <div class="container produtos-ne">
+                <div>
+                    <img class="product-image" src="./midia/camisablackadam.jpeg" alt="Camisa do adão negro">
+                    <h3>Camisa do Adão Negro</h3>
+                    <p>
+                        Camisa de algodão penteado super confortavel
+                    </p>
+                    <button class="btn-produtos" type="button">Adicionar no carrinho</button>
+                </div>
+                <div>
+                    <img class="product-image" src="./midia/camisadeadpool.jpeg" alt="Camisa do Deadpool">
+                    <h3>Camisa do Deadpool</h3>
+                    <p>
+                        Camisa de algodão penteado super confortavel
+                    </p>
+                    <button class="btn-produtos" type="button">Adicionar no carrinho</button>
+                </div>
+                <div>
+                    <img class="product-image" src="./midia/camisavingadoresarmadura.jpeg" alt="Camisa dos vingadores">
+                    <h3>Camisa do armadura</h3>
+                    <p>
+                        Camisa de algodão penteado super confortavel
+                    </p>
+                    <button class="btn-produtos" type="button">Adicionar no carrinho</button>
+                </div>
+                <div>
+                    <img class="product-image" src="./midia/camisahomemaranha.jpeg" alt="Camisa do homem aranha">
+                    <h3>Camisa do homem aranha</h3>
+                    <p>
+                        Camisa de algodão penteado super confortavel
+                    </p>
+                    <button class="btn-produtos" type="button">Adicionar no carrinho</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('.button-menu').click(function() {
+            $('.menu').slideToggle();
+            })
+        })
+    </script>
+</body>
+</html>
