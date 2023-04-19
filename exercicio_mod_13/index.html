@@ -7,47 +7,65 @@
     <title>Exercicio Modulo 13</title>
     <link rel="stylesheet" href="./lib/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
        
 </head>
 
 <body>
-    <header>
+    <header class="faixa">
         <div class="container">
-            <div id="carousel-exemplo" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div data-bs-interval="2000" class="carousel-item active">
-                        <img class="d-block w-100 img-carousel" src="./img/herois1.webp" alt="Heróis DC">
-                            <div>
-                                <h4 class="carousel-caption">Heróis da DC</h4>
-                            </div>
+            <h1>Site dos Heróis</h1>
+            <nav class="navbar-expand-lg">
+                <ul>
+                    <li>
+                        <a href="#">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#">Heróis</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+            
+    </header>
+
+
+    <div id="carousel-exemplo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="2000" class="carousel-item active">
+                <img class="d-block w-100 img-carousel" src="./img/herois1.webp" alt="Heróis DC">
+                    <div>
+                        <h4 class="carousel-caption">Guardiões da Galaxia - Game PC</h4>
                     </div>
-                    <div data-bs-interval="2000" class="carousel-item ">
-                        <img class="d-block w-100 img-carousel"  src="./img/herois2.jpg" alt="Heróis Marvel">
-                            <div>
-                                <h4 class="carousel-caption">Heróis Marvel</h4>
-                            </div>
+            </div>
+            <div data-bs-interval="2000" class="carousel-item ">
+                <img class="d-block w-100 img-carousel"  src="./img/herois2.webp" alt="Heróis Marvel">
+                    <div>
+                        <h4 class="carousel-caption">Star Lord</h4>
                     </div>
-                    <div data-bs-interval="2000" class="carousel-item ">
-                        <img class="d-block w-100 img-carousel" src="./img/herois3.jpg" alt="Avengers e kang">
-                            <div>
-                                <h4 class="carousel-caption">Avengers vs Kang</h4>
-                            </div>
+            </div>
+            <div data-bs-interval="2000" class="carousel-item ">
+                <img class="d-block w-100 img-carousel" src="./img/herois3.webp" alt="Avengers e kang">
+                    <div>
+                        <h4 class="carousel-caption">Guardiões da galaxia</h4>
                     </div>
-                </div>
-                <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
-                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
-                </div>
             </div>
         </div>
-    </header>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+
     
     <div class="container">
         <section>
@@ -55,14 +73,15 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <article class="card text-bg-danger">
                         <header class="card-header">
-                            <h4><strong>Conheça o Sinistro e seus poderes.</strong></h4>
+                            <h4><strong>Conheça a Gamora.</strong></h4>
                         </header>
-                        <img class="img-section" src="./img/card1.jpg" alt="Sinistro">
+                        <img class="img-section" src="./img/card1.webp" alt="Sinistro">
                         <div class="card-body">
-                            <h5 class="card-title">Saiba tudo sobre este vilão da Marvel</h5>
+                            <h5 class="card-title">Saiba tudo sobre esta guerreira</h5>
                             <p>
-                                Sr. Sinistro é o alter-ego de Nathaniel Essex. Ele faz parte do Universo Marvel, aparecendo com maior regularidade nas histórias dos X-Men. Sua primeira aparição foi na revista Uncanny X-men #213 (1987).
-                                Em 2008 foi rankeado pelo site Marvel.com em 6° lugar no Top 10 de maiores vilões do Universo...
+                                Gamora é a filha adotiva do Thanos, vilão que derrotou os vingadores e destruiu
+                                metade da vida humano na terra. A Gamora é um guerreira intergalactica extremamente
+                                poderosa, sua arma é uma espada grande e pesada...
                             </p>
                             <a href="#" class="btn btn-dark">Leia Mais</a>
                         </div>
@@ -76,14 +95,16 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <article class="card text-bg-danger">
                         <header class="card-header">
-                            <h4><strong>Conheça o Hulk e seus poderes.</strong></h4>
+                            <h4><strong>Conheça o baby groot.</strong></h4>
                         </header>
-                        <img class="img-section" src="./img/card3.jpg" alt="Hulk">
+                        <img class="img-section" src="./img/card2.webp" alt="Hulk">
                         <div class="card-body">
-                            <h5 class="card-title">Saiba tudo sobre o Hulk e seus poderes</h5>
+                            <h5 class="card-title">Saiba tudo sobre o baby Groot.</h5>
                             <p>
-                                Na história original dos quadrinhos, o Hulk é um selvagem e poderoso alter ego do Dr. Robert Bruce Banner, um cientista que foi atingido por raios gama enquanto salvava um adolescente durante o teste
-                                militar de uma bomba por ele desenvolvida. Hulk faz parte da equipe origianl dos vingadores</p>
+                                Groot é o melhor amigo do Rocket, eles são inseparavéis, pode não parecer, mas o groot é mais
+                                poderoso do que aparenta. Ele não se comunica de maneira convencional, apenas usando a frase "
+                                Eu sou groot"...
+                            </p>
                             <a href="#" class="btn btn-dark">Leia Mais</a>
                         </div>
                         <footer class="card-footer">
@@ -95,14 +116,16 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <article class="card text-bg-danger">
                         <header class="card-header">
-                            <h4><strong>Conheça o Nemesis e seus poderes.</strong></h4>
+                            <h4><strong>Conheça o o Rocket.</strong></h4>
                         </header>
-                        <img class="img-section" src="./img/card2.jpg" alt="Nemesis">
+                        <img class="img-section" src="./img/card3.webp" alt="Nemesis">
                         <div class="card-body">
-                            <h5 class="card-title">Saiba tudo sobre Esse vilão poderoso</h5>
+                            <h5 class="card-title">Saiba tudo sobre esse guerreiro.</h5>
                             <p>
-                                Nemesis era originalmente o único ser em toda a existência. Sentindo-se solitária, ela se dividiu, formando as Joias do Infinito e a maior parte do Multiverso. Nemesis é um vilão que se juntou ao grupo dos 
-                                cavaleiros das trevas formado pelo darkseid, originalmente formado pela Morgana LeFay, Red Hul...</p>
+                                O melhor amigo do Groot é um poderoso guerreiro, após passar por experiências em laboratorio, obteve
+                                personalidade e inteligencia acima do normal. O Rocket adora uma arma e é extremamente poderoso 
+                                e eficiente...
+                            </p>
                             <a href="#" class="btn btn-dark">Leia Mais</a>
                         </div>
                         <footer class="card-footer">
@@ -114,7 +137,7 @@
         </section>           
     </div> 
 
-        <footer class="container">
+        <footer>
             &copy - Todos os direitos reservados - 2023.
         </footer>
 

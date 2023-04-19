@@ -4,8 +4,47 @@
     box-sizing: border-box;
 }
 
-.carousel {
-    max-width: 1280px;
+body {
+    font-family: 'DynaPuff', cursive;
+}
+
+
+header nav li{
+    display: inline;
+    color: #fff;
+}
+
+header h1 {
+    font-family: 'DynaPuff', cursive;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 12px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+header .container {
+    display: flex;
+    padding: 14px;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.faixa {
+    background-color: red;
+}
+
+
+.carousel-iyem {
+    height: 720px;
 }
 
 
