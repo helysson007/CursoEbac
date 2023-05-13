@@ -1,1 +1,0 @@
-{"version":3,"sources":["main.scss","variaveis.scss"],"names":[],"mappings":"AAEA;EACI,kBCHW","file":"../main.css","sourcesContent":["@use 'variaveis';\n\nbody {\n    background-color: variaveis.$corPrincipal;\n}","$corPrincipal: #4343;"]}
